@@ -19,7 +19,7 @@ import com.basededatosrecetas.recetas.Service.UsuarioService;
 
 @RestController
 @RequestMapping("/api/usuarios")
-@CrossOrigin(origins = "http://localhost:8100")
+@CrossOrigin(origins = "*")
 public class UsuarioController {
 
     @Autowired
